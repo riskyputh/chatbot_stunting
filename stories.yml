@@ -1,0 +1,75 @@
+version: "2.0"
+
+stories:
+
+- story: pengertian stunting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_satu
+  - action: utter_tanya_satu
+
+- story: anjuran nutrisi anak
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_dua
+  - action: utter_tanya_dua
+
+- story: stunting 2 tahun
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_tiga
+  - action: utter_tanya_tiga
+
+- story: vitamin mencegah stunting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_empat
+  - action: utter_tanya_empat
+
+- story: tips mencegah stunting
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_lima
+  - action: utter_tanya_lima
+
+- story: mpasi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_enam
+  - action: utter_tanya_enam
+
+- story: bayi kurang dari 6 bulan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_tujuh
+  - action: utter_tanya_tujuh
+
+- story: bayi 6-12 bulan
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_delapan
+  - action: utter_tanya_delapan
+
+- story: difesiensi besi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_sembilan
+  - action: utter_tanya_sembilan
+
+- story: BB melambat
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: tanya_sepuluh
+  - action: utter_tanya_sepuluh
+  - intent: goodbye
+  - action: utter_goodbye
